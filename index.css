@@ -1,0 +1,186 @@
+@font-face {
+    font-family: Barlow Semi Condensed;
+    src: url(/font/*);
+    Weight: 500, 600;
+}
+*{
+
+    font-family: Barlow , Semi , Condensed;
+}
+body{
+
+    background-color: hsl(0, 0%, 81%);
+}
+
+.a1{
+    
+    
+background-color:hsl(263, 55%, 52%); 
+ 
+
+}
+ .q{
+     float: right;
+     margin: 0px;
+     padding: 0px;
+ }
+
+ article {
+margin:50px;
+
+padding: auto;
+margin: 100px;
+
+
+
+ }
+
+ section {
+    margin: 10px;
+    padding: 20px;
+border-radius:20px;
+box-sizing: border-box;
+ }
+ .img{
+    margin:10px ;
+    border-radius: 50% ;
+   float:left;
+   clear:right;
+ }
+ img{
+     border-radius: 50%;
+ }
+ .header {
+    margin: 5px;
+    font-size: 13px;
+
+ }
+ .qoute{
+    font-size:20px;
+    display: block;
+  
+   padding-top: 20px;
+    padding-bottom: 4px;
+    font-weight: bold;
+
+ }
+ .main{
+    font-size: 13px;
+    opacity: 70%;
+ }
+ .v{
+     opacity: 50%;
+     
+ }
+ .name {
+     padding-left: 15px ;
+     padding-top: 15px;
+ }
+
+ .a2{
+    background-color: hsl(217, 19%, 35%);
+ }
+
+ .a3{
+    background-color:hsl(0, 0%, 100%);
+    height: fit-content;
+    
+    
+ }
+
+ .a4{
+    background-color: hsl(219, 29%, 14%);
+    
+    
+ }
+
+ .a5{
+    background-color:hsl(0, 0%, 100%);
+    
+  
+}
+
+ .a1 , .a2 , .a4{
+     color: hsl(0, 0%, 81%);
+    
+ }
+ 
+    
+    
+
+
+
+
+
+                     /**********************************/
+
+
+
+@media (min-width: 1440px) {
+  article {
+     display: grid; 
+    grid-template-areas: 'a1 a1 a2 a5'
+                        'a3 a4 a4 a5';
+    grid-gap: 15px;
+  }
+   .a1{
+grid-area: a1;
+   }
+   .a2{
+    grid-area: a2;
+   }
+   .a3{
+    grid-area: a3;
+   }
+   .a4{
+    grid-area: a4;
+   }
+   .a5{
+    grid-area: a5;
+    width: 250px;
+   }
+}
+
+
+
+@media (min-width: 357px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+}
